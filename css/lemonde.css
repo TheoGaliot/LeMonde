@@ -1,0 +1,148 @@
+body {
+  /*overflow-x: hidden;*/
+}
+
+.cm-alert-banner {
+  padding-right: 36px;
+  padding-left: 36px;
+  border-bottom: 1px solid #e8eaee;
+  padding-top: -2px;
+  padding-bottom: -2px;
+  line-height: 1.5;
+  box-sizing: border-box;
+
+}
+
+.cm-alert-banner a {
+  font-family: Helvetica Neue,Helvetica,Arial,FreeSans,sans-serif;
+  font-size: 100%;
+  color: #383f4e;
+}
+
+.cm-alert-banner a:hover {
+  text-decoration: underline;
+}
+
+.Alerte {
+  color: #f62121;
+  display: inline-block;
+  padding-right: 4px;
+  font-family: Fette,Arial Narrow,sans-serif;
+  font-weight: bold;
+
+}
+
+.ol-sticky-top__top-container {
+  position: absolute;
+  width: 100%;
+  line-height: 1.5;
+
+  padding-top: -2px;
+  padding-bottom: -2px;
+}
+
+.co-header {
+  padding-top: 14px;
+}
+
+.ol-sticky-top_top-container header {
+  border-bottom: 1px solid #e8eaee;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+#logo {
+  width: 150px;
+  height: 20%;
+  margin-left: 3%;
+  margin-top: 0%;
+  float: left;
+  cursor: pointer;
+}
+
+#menu{
+  width: 1.5%;
+  height: 10%;
+  margin-top: 0.65%;
+  margin-left: 1%;
+  vertical-align: 95%;
+  float: left;
+  cursor: pointer;
+}
+
+button{
+  float: right;
+  background-color: #fdd662;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  font-family: Helvetica Neue,Helvetica,Arial,FreeSans,sans-serif;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+
+button:hover {
+  background-color: #DAA520;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 680px;
+}
+
+.paysage {
+  width: 100%;
+}
+
+  .texte p{
+    color: #8b92a1;
+    font-size: .6rem;
+    font-family: Helvetica Neue,Helvetica,Arial,FreeSans,sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-top: 0.25%;
+
+  }
+
+  .h1 {
+    font-size: 0.75rem;
+    font-family: theantiqua,georgia,Bitstream Charter,serif;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #696969;
+  }
+
+  @media screen and (max-width: 1280px){
+    #logo {
+      height: 25px;
+      width: 100px;
+      margin-left: 5%;
+      margin-top: 1.5%;
+    }
+
+    #menu {
+      height: 20px;
+      width: 20px;
+      margin-left: 2.5%;
+      margin-top: 2.5%;
+    }
+
+    button {
+      width: 20%;
+      margin-top: -1.25%;
+    }
+
+    .paysage {
+      width: 100%;
+    }
+
+    main{
+      max-width: 100%;
+    }
+
+    .texte p {
+      margin-left: 0%;
+    }
+  }
